@@ -41,7 +41,7 @@ def predict_random(UserID, Gender,Age,EstimatedSalary):
 def main():
     
     html_temp = """
-   <div class="" style="background-color:blue;" >
+   <div class="" style="background-color:green;" >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
@@ -70,10 +70,10 @@ def main():
       result=predict_random(UserID, Gender,Age,EstimatedSalary)
       st.success('Random forest Model  has predicted {}'.format(result))  
     if st.button("About"):
-      st.header("Developed by Deepak Moud")
-      st.subheader("Head , Department of Computer Engineering")
+      st.header("Developed by Tanishk Khandelwal")
+      st.subheader("Student , Department of Computer Engineering")
     html_temp = """
-    <div class="" style="background-color:orange;" >
+    <div class="" style="background-color:red;" >
     <div class="clearfix">           
     <div class="col-md-12">
     <center><p style="font-size:20px;color:white;margin-top:10px;">Machine Learning Experiment 5: Support Vector Machine and Random Forest</p></center> 
